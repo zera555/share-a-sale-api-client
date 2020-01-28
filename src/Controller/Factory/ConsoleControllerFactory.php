@@ -1,9 +1,9 @@
 <?php
-namespace Firelike\ShareASale\Controller\Factory;
+namespace Zera555\ShareASale\Controller\Factory;
 
 
-use Firelike\ShareASale\Controller\ConsoleController;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Zera555\ShareASale\Controller\ConsoleController;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
 
 
@@ -13,7 +13,7 @@ class ConsoleControllerFactory implements FactoryInterface
     public function __invoke(ContainerInterface $sm, $requestedName, array $options = null)
     {
 
-        $service = $sm->get('Firelike\ShareASale\Service\ShareASaleService');
+        $service = $sm->get('Zera555\ShareASale\Service\ShareASaleService');
 
         $controller = new ConsoleController();
         $controller->setService($service);

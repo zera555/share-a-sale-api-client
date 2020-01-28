@@ -1,31 +1,31 @@
 <?php
-namespace Firelike\ShareASale\Validator;
+namespace Zera555\ShareASale\Validator;
 
 
-use Zend\Validator\AbstractValidator;
-use Zend\Validator\ValidatorChain;
+use Laminas\Validator\AbstractValidator;
+use Laminas\Validator\ValidatorChain;
 
 class BasicServiceMethodParametersValidator extends AbstractValidator
 {
     /**
-     * @var \Firelike\ShareASale\Validator\ProperServiceMethodParametersValidator
+     * @var \Zera555\ShareASale\Validator\ProperServiceMethodParametersValidator
      */
     protected $properServiceMethodParametersValidator;
     /**
-     * @var \Firelike\ShareASale\Validator\DefaultParametersNotEmptyValidator
+     * @var \Zera555\ShareASale\Validator\DefaultParametersNotEmptyValidator
      */
     protected $defaultParametersNotEmptyValidator;
     /**
-     * @var \Firelike\ShareASale\Validator\SortDirectionParameterValidator
+     * @var \Zera555\ShareASale\Validator\SortDirectionParameterValidator
      *
      */
     protected $sortDirectionValidator;
     /**
-     * @var \Firelike\ShareASale\Validator\FormatParameterValidator
+     * @var \Zera555\ShareASale\Validator\FormatParameterValidator
      */
     protected $formatParameterValidator;
     /**
-     * @var \Firelike\ShareASale\Validator\XmlFormatParameterValidator
+     * @var \Zera555\ShareASale\Validator\XmlFormatParameterValidator
      */
     protected $xmlFormatParameterValidator;
 

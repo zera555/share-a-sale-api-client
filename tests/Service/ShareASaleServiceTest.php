@@ -1,5 +1,5 @@
 <?php
-namespace Firelike\ShareASale\Test\Service;
+namespace Zera555\ShareASale\Test\Service;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
@@ -13,15 +13,15 @@ require_once __DIR__ . '/../../src/Validator/ProperServiceMethodParametersValida
 require_once __DIR__ . '/../../src/Validator/SortDirectionParameterValidator.php';
 require_once __DIR__ . '/../../src/Validator/XmlFormatParameterValidator.php';
 
-use Firelike\ShareASale\Service\ShareASaleService;
+use Zera555\ShareASale\Service\ShareASaleService;
 
-use Firelike\ShareASale\Validator\BasicServiceMethodParametersValidator;
-use Firelike\ShareASale\Validator\DefaultParametersNotEmptyValidator;
-use Firelike\ShareASale\Validator\FormatParameterValidator;
-use Firelike\ShareASale\Validator\ProperServiceMethodParametersValidator;
+use Zera555\ShareASale\Validator\BasicServiceMethodParametersValidator;
+use Zera555\ShareASale\Validator\DefaultParametersNotEmptyValidator;
+use Zera555\ShareASale\Validator\FormatParameterValidator;
+use Zera555\ShareASale\Validator\ProperServiceMethodParametersValidator;
 
-use Firelike\ShareASale\Validator\SortDirectionParameterValidator;
-use Firelike\ShareASale\Validator\XmlFormatParameterValidator;
+use Zera555\ShareASale\Validator\SortDirectionParameterValidator;
+use Zera555\ShareASale\Validator\XmlFormatParameterValidator;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
@@ -30,7 +30,7 @@ class ITunesServiceTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var \Firelike\ShareASale\Service\ShareASaleService
+     * @var \Zera555\ShareASale\Service\ShareASaleService
      */
     protected $service;
 

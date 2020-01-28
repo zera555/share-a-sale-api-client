@@ -1,9 +1,9 @@
 <?php
-namespace Firelike\ShareASale\Validator;
+namespace Zera555\ShareASale\Validator;
 
 
-use Zend\Validator\AbstractValidator;
-use Zend\Validator\InArray;
+use Laminas\Validator\AbstractValidator;
+use Laminas\Validator\InArray;
 
 class SortDirectionParameterValidator extends AbstractValidator
 {

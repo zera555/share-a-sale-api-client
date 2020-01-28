@@ -1,13 +1,13 @@
 <?php
-namespace Firelike\ShareASale\Controller;
+namespace Zera555\ShareASale\Controller;
 
-use Zend\Mvc\Console\Controller\AbstractConsoleController;
+use Laminas\Mvc\Console\Controller\AbstractConsoleController;
 
 
 class ConsoleController extends AbstractConsoleController
 {
     /**
-     * @var \Firelike\ShareASale\Service\ShareASaleService
+     * @var \Zera555\ShareASale\Service\ShareASaleService
      */
     protected $service;
 
@@ -304,7 +304,7 @@ class ConsoleController extends AbstractConsoleController
     }
 
     /**
-     * @return \Firelike\ShareASale\Service\ShareASaleService
+     * @return \Zera555\ShareASale\Service\ShareASaleService
      */
     public function getService()
     {
@@ -312,7 +312,7 @@ class ConsoleController extends AbstractConsoleController
     }
 
     /**
-     * @param \Firelike\ShareASale\Service\ShareASaleService $service
+     * @param \Zera555\ShareASale\Service\ShareASaleService $service
      */
     public function setService($service)
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Firelike\ShareASale\Validator\Factory;
+namespace Zera555\ShareASale\Validator\Factory;
 
 
-use Firelike\ShareASale\Validator\FormatParameterValidator;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Zera555\ShareASale\Validator\FormatParameterValidator;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
 
 

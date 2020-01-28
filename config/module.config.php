@@ -23,7 +23,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale activity [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'activity'
                         )
                     )
@@ -32,7 +32,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale activity-summary [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'activity-summary'
                         )
                     )
@@ -41,7 +41,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale merchant-timespan [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'merchant-timespan'
                         )
                     )
@@ -50,7 +50,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale daily-activity [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'daily-activity'
                         )
                     )
@@ -59,7 +59,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale monthly-summary [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'monthly-summary'
                         )
                     )
@@ -68,7 +68,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale voidtrail [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'voidtrail'
                         )
                     )
@@ -77,7 +77,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale traffic [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'traffic'
                         )
                     )
@@ -86,7 +86,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale apitokencount [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'apitokencount'
                         )
                     )
@@ -95,7 +95,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale get-products [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'get-products'
                         )
                     )
@@ -104,7 +104,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale invalid-links [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'invalid-links'
                         )
                     )
@@ -113,7 +113,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale order-inquiry [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'order-inquiry'
                         )
                     )
@@ -122,7 +122,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale merchant-data-feeds [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'merchant-data-feeds'
                         )
                     )
@@ -131,7 +131,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale coupon-deals [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'coupon-deals'
                         )
                     )
@@ -140,7 +140,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale merchant-status [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'merchant-status'
                         )
                     )
@@ -149,7 +149,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale merchant-creative [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'merchant-creative'
                         )
                     )
@@ -158,7 +158,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale merchant-gift-card [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'merchant-gift-card'
                         )
                     )
@@ -167,7 +167,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale edittrail [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'edittrail'
                         )
                     )
@@ -176,7 +176,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale payment-summary [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'payment-summary'
                         )
                     )
@@ -185,7 +185,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale merchant-search [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'merchant-search'
                         )
                     )
@@ -203,7 +203,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale ledger [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'ledger'
                         )
                     )
@@ -212,7 +212,7 @@ return array(
                     'options' => array(
                         'route' => 'shareasale balance [--verbose|-v]',
                         'defaults' => array(
-                            'controller' => 'Firelike\ShareASale\Controller\Console',
+                            'controller' => 'Zera555\ShareASale\Controller\Console',
                             'action' => 'balance'
                         )
                     )

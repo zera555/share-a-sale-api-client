@@ -1,5 +1,5 @@
 <?php
-namespace Firelike\ShareASale\Service;
+namespace Zera555\ShareASale\Service;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -37,7 +37,7 @@ class ShareASaleService
     protected $secretKey;
 
     /**
-     * @var \Firelike\ShareASale\Validator\BasicServiceMethodParametersValidator
+     * @var \Zera555\ShareASale\Validator\BasicServiceMethodParametersValidator
      */
     protected $basicServiceMethodValidator;
 
@@ -395,7 +395,7 @@ class ShareASaleService
     }
 
     /**
-     * @return \Firelike\ShareASale\Validator\BasicServiceMethodParametersValidator
+     * @return \Zera555\ShareASale\Validator\BasicServiceMethodParametersValidator
      */
     public function getBasicServiceMethodValidator()
     {
@@ -403,7 +403,7 @@ class ShareASaleService
     }
 
     /**
-     * @param \Firelike\ShareASale\Validator\BasicServiceMethodParametersValidator $basicServiceMethodValidator
+     * @param \Zera555\ShareASale\Validator\BasicServiceMethodParametersValidator $basicServiceMethodValidator
      */
     public function setBasicServiceMethodValidator($basicServiceMethodValidator)
     {

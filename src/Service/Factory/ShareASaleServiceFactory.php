@@ -1,9 +1,9 @@
 <?php
-namespace Firelike\ShareASale\Service\Factory;
+namespace Zera555\ShareASale\Service\Factory;
 
 
-use Firelike\ShareASale\Service\ShareASaleService;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Zera555\ShareASale\Service\ShareASaleService;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
 
 
@@ -39,7 +39,7 @@ class ShareASaleServiceFactory implements FactoryInterface
 
         }
 
-        $service->setBasicServiceMethodValidator($sm->get('Firelike\ShareASale\Validator\BasicServiceMethodParametersValidator'));
+        $service->setBasicServiceMethodValidator($sm->get('Zera555\ShareASale\Validator\BasicServiceMethodParametersValidator'));
 
         return $service;
     }

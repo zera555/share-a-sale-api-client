@@ -1,5 +1,5 @@
 <?php
-namespace Firelike\ShareASale\Response;
+namespace Zera555\ShareASale\Response;
 
 
 class Product extends AbstractResponse
