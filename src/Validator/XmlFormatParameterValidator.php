@@ -1,5 +1,5 @@
 <?php
-namespace Firelike\ShareASale\Validator;
+namespace Zera555\ShareASale\Validator;
 
 
 use Laminas\Validator\AbstractValidator;

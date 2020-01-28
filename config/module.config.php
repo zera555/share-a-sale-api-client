@@ -2,18 +2,18 @@
 return array(
     'controllers' => array(
         'factories' => [
-            'Firelike\ShareASale\Controller\Console' => Firelike\ShareASale\Controller\Factory\ConsoleControllerFactory::class
+            'Zera555\ShareASale\Controller\Console' => Zera555\ShareASale\Controller\Factory\ConsoleControllerFactory::class
         ]
     ),
     'service_manager' => array(
         'factories' => array(
-            Firelike\ShareASale\Service\ShareASaleService::class => Firelike\ShareASale\Service\Factory\ShareASaleServiceFactory::class,
-            Firelike\ShareASale\Validator\BasicServiceMethodParametersValidator::class => Firelike\ShareASale\Validator\Factory\BasicServiceMethodParametersValidatorFactory::class,
-            Firelike\ShareASale\Validator\DefaultParametersNotEmptyValidator::class => Firelike\ShareASale\Validator\Factory\DefaultParametersNotEmptyValidatorFactory::class,
-            Firelike\ShareASale\Validator\FormatParameterValidator::class => Firelike\ShareASale\Validator\Factory\FormatParameterValidatorFactory::class,
-            Firelike\ShareASale\Validator\ProperServiceMethodParametersValidator::class => Firelike\ShareASale\Validator\Factory\ProperServiceMethodParametersValidatorFactory::class,
-            Firelike\ShareASale\Validator\SortDirectionParameterValidator::class => Firelike\ShareASale\Validator\Factory\SortDirectionParameterValidatorFactory::class,
-            Firelike\ShareASale\Validator\XmlFormatParameterValidator::class => Firelike\ShareASale\Validator\Factory\XmlFormatParameterValidatorFactory::class,
+            Zera555\ShareASale\Service\ShareASaleService::class => Zera555\ShareASale\Service\Factory\ShareASaleServiceFactory::class,
+            Zera555\ShareASale\Validator\BasicServiceMethodParametersValidator::class => Zera555\ShareASale\Validator\Factory\BasicServiceMethodParametersValidatorFactory::class,
+            Zera555\ShareASale\Validator\DefaultParametersNotEmptyValidator::class => Zera555\ShareASale\Validator\Factory\DefaultParametersNotEmptyValidatorFactory::class,
+            Zera555\ShareASale\Validator\FormatParameterValidator::class => Zera555\ShareASale\Validator\Factory\FormatParameterValidatorFactory::class,
+            Zera555\ShareASale\Validator\ProperServiceMethodParametersValidator::class => Zera555\ShareASale\Validator\Factory\ProperServiceMethodParametersValidatorFactory::class,
+            Zera555\ShareASale\Validator\SortDirectionParameterValidator::class => Zera555\ShareASale\Validator\Factory\SortDirectionParameterValidatorFactory::class,
+            Zera555\ShareASale\Validator\XmlFormatParameterValidator::class => Zera555\ShareASale\Validator\Factory\XmlFormatParameterValidatorFactory::class,
         )
     ),
     'console' => array(
