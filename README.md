@@ -1,7 +1,7 @@
 ## Share-A-Sale API Client
 
-[![Build Status](https://travis-ci.org/firelike/share-a-sale-api-client.svg?branch=master&format=flat-square)](https://travis-ci.org/firelike/share-a-sale-api-client)
-[![License](https://poser.pugx.org/firelike/share-a-sale-api-client/license?format=flat-square)](https://packagist.org/packages/firelike/share-a-sale-api-client)
+[![Build Status](https://travis-ci.org/zera555/share-a-sale-api-client.svg?branch=master&format=flat-square)](https://travis-ci.org/zera555/share-a-sale-api-client)
+[![License](https://poser.pugx.org/zera555/share-a-sale-api-client/license?format=flat-square)](https://packagist.org/packages/zera555/share-a-sale-api-client)
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Install the module using Composer into your application's vendor directory. Add 
 ```json
 {
     "require": {
-        "firelike/share-a-sale-api-client": "1.*"
+        "zera555/share-a-sale-api-client": "1.*"
     }
 }
 ```
@@ -25,7 +25,7 @@ Enable the module in your `application.config.php` file.
 ```php
 return array(
     'modules' => array(
-        'Firelike\ShareASale'
+        'Zera555\ShareASale'
     )
 );
 ```
@@ -51,7 +51,7 @@ return [
 Calling from your code:
 
 ```php
-        use Firelike\ShareASale\Service\ShareASaleService;
+        use Zera555\ShareASale\Service\ShareASaleService;
         
         $service = new ShareASaleService();
         
